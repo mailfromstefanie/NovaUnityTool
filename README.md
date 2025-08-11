@@ -30,3 +30,8 @@ Uitgebreide uitleg staat in `Docs/INSTALL.txt` en `Docs/USAGE.txt`.
 
 ## Licentie
 Vrij te gebruiken binnen je eigen projecten. Geen garanties.
+
+## Voorbeelden
+- [Starter (lege templates)](Blueprints/Starter)
+- [Ingevulde voorbeelden](Blueprints/Voorbeelden-Ingevuld)
+- [Ballonvaart-voorbeeld](Blueprints/Ballonvaart-Project/Voorbeelden-Ingevuld)

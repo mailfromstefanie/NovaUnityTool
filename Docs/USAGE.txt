@@ -22,3 +22,5 @@ Na de chatsessie
 - AI geeft een nieuwe Projectplan.txt terug.
 - Vervang je lokale bestand:
   Assets/STEFSTOOLS/Latest/Projectplan.txt
+
+“Kopieer Editor/StefTools/ naar Assets/Editor/StefTools/ in Unity.”
