@@ -1,0 +1,16 @@
+PROJECTPLAN
+PROJECT: Nova Unity Export Tool
+VERSIE: v0.1 – 2025-08-11
+
+DOEL:
+Een Unity Editor-tool die met één klik alle benodigde projectinformatie (blueprint, scene-analyse, werkbriefje, scripts) exporteert naar een zip, zodat AI direct kan doorgaan waar de vorige sessie is gestopt.
+
+BELANGRIJKSTE EERSTE TAKEN:
+1) Werkende knop “Nieuw project starten” die lege blueprint, werkbriefje en scene-analyse maakt.
+2) “Verder werken aan project” knop koppelen zodat hij de laatste blueprint inlaadt.
+3) “Sessie afsluiten” knop koppelen die een zip maakt en versies opslaat.
+
+OPMERKINGEN:
+- Exports moeten altijd JSON + TXT bevatten voor AI-leesbaarheid.
+- Exports opslaan in Assets/STEFSTOOLS/Latest/ en een nieuwe versie-map (met datum) maken.
+- Tool moet zonder extra instellingen werken (1 klik = klaar).

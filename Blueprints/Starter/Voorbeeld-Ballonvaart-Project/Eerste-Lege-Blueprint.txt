@@ -1,0 +1,30 @@
+BEGIN BLUEPRINT
+PROJECTNAAM: SP!N Skyride – Luchtballonvaart
+VERSIE: v1.3 – 2025-08-11
+HOOFDDOEL: Een multiplayer luchtballon in VRChat maken die spelers automatisch meeneemt over een traject, volledig gescript zonder Unity physics, en prefab-vriendelijk voor verkoop.
+
+REGELS VOOR AI:
+- Geef altijd kant-en-klare UdonSharp-code, direct te plakken in Unity.
+- Breek bestaande werkende functies niet.
+- Houd de scripts licht genoeg voor 80+ spelers op Quest.
+- Synchroniseer alleen wat nodig is (mandbeweging, status vlammen, UI-tekst).
+- Werk in kleine, bevestigde stappen.
+
+HUIDIGE SNAPSHOT:
+- BalloonPhysicsController.cs stuurt lift, warmte, wind en synchronisatie aan.
+- BalloonUIPanel.cs regelt sliders, knoppen, vent-status en ownershiplabel.
+- BalloonMover.cs beweegt de mand op basis van snelheid uit PhysicsController.
+- UI toont huidige eigenaar, startknop, vent-release.
+- Mand en spelers bewegen soepel mee met Superbstingray PlayerFollower-methode.
+
+VOLGENDE STAPPEN:
+1) Vent-release knop toevoegen (heat direct verlagen).
+2) UI altijd correct tonen bij late joiners.
+3) Startknop locken voor niet-owners.
+4) Ownership automatisch overdragen bij vertrek owner.
+
+WIJZIGINGSLOG:
+v1.3 – 2025-07-27: Basis physics, UI en sync compleet.
+v1.2 – 2025-07-25: Mand sync en UI-sync toegevoegd.
+v1.1 – 2025-07-24: Physics en route-systeem opgezet.
+EINDE BLUEPRINT

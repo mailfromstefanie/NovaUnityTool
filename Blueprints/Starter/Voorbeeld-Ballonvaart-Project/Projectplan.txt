@@ -1,0 +1,16 @@
+PROJECTPLAN
+PROJECT: SP!N Skyride – Luchtballonvaart
+VERSIE: v1.3 – 2025-08-11
+
+DOEL:
+Een schaalbare, netwerkgesynchroniseerde luchtballon prefab maken voor VRChat die met 80+ spelers werkt, verkoopklaar is, en eenvoudig in andere werelden te plaatsen is.
+
+BELANGRIJKSTE EERSTE TAKEN:
+1) Vent-release knop implementeren.
+2) UI-sync fix voor late joiners.
+3) Ownership-overdracht systeem maken.
+
+OPMERKINGEN:
+- Physics volledig gescript zonder rigidbodies.
+- Alleen noodzakelijke syncvariabelen gebruiken voor performance.
+- Prefab moet in elke wereld kunnen werken zonder afhankelijkheden.

@@ -1,0 +1,14 @@
+PROJECTPLAN
+PROJECT: [invullen]
+VERSIE: v0.1 – [datum]
+
+DOEL:
+Korte omschrijving van wat je wil bouwen.
+
+BELANGRIJKSTE EERSTE TAKEN:
+1) ...
+2) ...
+3) ...
+
+OPMERKINGEN:
+Eventuele bijzonderheden of beperkingen.

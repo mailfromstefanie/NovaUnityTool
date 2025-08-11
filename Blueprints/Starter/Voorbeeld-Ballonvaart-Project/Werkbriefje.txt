@@ -1,0 +1,22 @@
+WERKBRIEFJE
+DATUM: 2025-08-11
+
+VERANDERD SINDS LAATSTE KEER:
+- UI-lock toegevoegd voor sliders bij niet-owners.
+- Heat-level sync verbeterd.
+
+VASTLOPERS:
+- UI toont verkeerde waarde bij late joiners (moet sync fix krijgen).
+- Startknoptekst soms niet correct gesynchroniseerd.
+
+NOVA NU LATEN DOEN:
+- Sync fix voor UI bij late joiners.
+- Vent-release functionaliteit maken (heatLevel -= X).
+- Ownership auto-overdracht script maken.
+
+NIET AANPASSEN:
+- Mand prefabstructuur.
+- PlayerFollower-component.
+
+OVERIGE NOTITIES:
+- Na vent-release implementatie test doen met 20 spelers in Quest-instance.

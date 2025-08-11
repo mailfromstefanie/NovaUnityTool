@@ -1,0 +1,23 @@
+WERKBRIEFJE
+DATUM: 2025-08-11
+
+VERANDERD SINDS LAATSTE KEER:
+- Startknop toegevoegd in het menu.
+- Eerste test gedaan voor mappenstructuur Docs/ en Blueprints/.
+
+VASTLOPERS:
+- Unity compile-error bij laden van script (mogelijk door te grote klasse → moet opgesplitst worden).
+- Nog geen automatische bestandsnamen voor versies.
+
+NOVA NU LATEN DOEN:
+- Script opdelen in losse modules (ExportScene, ExportBlueprint, ExportZip).
+- Checken hoe zip met alle bestanden automatisch kan worden aangemaakt.
+- Voorstel geven voor bestandsnamenstructuur (bv. Latest, VersieMap, Datum).
+
+NIET AANPASSEN:
+- Bestaande mapnamen (Docs/, Blueprints/, Editor/StefTools/).
+- Huidige README.md structuur.
+
+OVERIGE NOTITIES:
+- Ik wil straks ook “opnieuw opbouwen” instructies in Docs/REBUILD.txt afmaken.
+- Graag export-bestanden direct opslaan in Assets/STEFSTOOLS/Latest/.

@@ -1,35 +1,32 @@
 # Nova Unity Tool – Blueprint & Scene Export
 
-Doel
-----
-Unity Editor tool die in één keer alle nuttige project-informatie exporteert:
+Doel  
+Deze Unity Editor-tool maakt in één klik een ZIP met:
 - Projectplan (Blueprint)
-- Werkbriefje (korte notities voor de volgende sessie)
+- Werkbriefje (korte notities)
 - Scene-overzicht (leesbaar en JSON)
 - Scripts en shaders die in de scene gebruikt worden
-- Een korte tekst om in een AI-chat te plakken
+- Een kort tekstje om in de chat te plakken
 
-Zo kan een AI het project direct begrijpen en verder helpen, zonder dat je zelf alles hoeft uit te leggen.
+Zo kan je een AI (zoals Nova) je project meteen laten begrijpen en verder laten bouwen, zonder alles uit te leggen.
 
-Mapindeling
------------
-- Editor/StefTools/ : C# Editor-scripts voor de tool (kopieer later naar Assets/Editor/StefTools/ in je Unity-project)
-- Docs/             : Handleidingen (installeren, gebruiken, opnieuw opbouwen)
-- Blueprints/Starter: Startdocumenten (Blueprint, Werkbriefje, Projectplan) als basis
+## Installeren (korte versie)
+1. Kopieer de map `Editor/StefTools/` uit deze repo naar jouw Unity-project:  
+   `Assets/Editor/StefTools/`
+2. Wacht tot Unity klaar is met compilen.
+3. Menu in Unity: **STEFSTOOLS → Nova Export (simpel)**.
 
-Snel starten (korte versie)
----------------------------
-1) Open je Unity-project.
-2) Kopieer de map `Editor/StefTools/` uit deze repo naar `Assets/Editor/StefTools/`.
-3) In Unity menu: STFSTOOLS → Nova Export (simpel).
-4) Gebruik:
-   - Nieuw project starten
-   - Verder werken aan project
-   - Sessie afsluiten
-5) De tool maakt één zip met duidelijke Nederlandse bestandsnamen en een tekstje om in de chat te plakken.
+## Gebruiken (korte versie)
+- **Nieuw project starten**: maakt lege Projectplan.txt, Werkbriefje.txt, Scene-overzicht (txt+json) en Zet-in-chat.txt.  
+- **Verder werken aan project**: leest je laatste Projectplan en maakt nieuwe export.  
+- **Sessie afsluiten**: maakt pakket klaar voor de volgende chat.
 
-Meer uitleg staat in `Docs/INSTALL.txt` en `Docs/USAGE.txt`.
+Uitgebreide uitleg staat in `Docs/INSTALL.txt` en `Docs/USAGE.txt`.
 
-Licentie
---------
-Vrij te gebruiken binnen jouw eigen projecten. Geen garanties.
+## Mapindeling
+- `Editor/StefTools/` – de Unity-tool scripts (zet je in `Assets/Editor/StefTools/`)  
+- `Docs/` – korte handleidingen (installeren, gebruiken, opnieuw opbouwen)  
+- `Blueprints/Starter/` – start-templates (lege blueprint, werkbriefje, projectplan)
+
+## Licentie
+Vrij te gebruiken binnen je eigen projecten. Geen garanties.

@@ -2,21 +2,23 @@ GEBRUIK – NOVA UNITY TOOL
 =========================
 
 Doel
-- Met één klik een zip-bestand maken met alle info die een AI nodig heeft.
+Met één klik een zip maken met alles wat een AI nodig heeft.
 
 Knoppen in de tool
 1. Nieuw project starten
-   - Maakt lege Projectplan.txt, Werkbriefje.txt, eerste Scene-overzicht (txt en json) en een Zet-in-chat.txt.
+   Maakt: Projectplan.txt (leeg), Werkbriefje.txt (sjabloon),
+   Scene-overzicht.txt, Scene-overzicht.json, Zet-in-chat.txt.
 2. Verder werken aan project
-   - Leest jouw laatste Projectplan.txt als die bestaat.
-   - Maakt nieuwe Scene-overzicht bestanden en Werkbriefje.txt.
+   Leest jouw laatste Projectplan.txt (Assets/STEFSTOOLS/Latest, als die er is)
+   en maakt een nieuwe export.
 3. Sessie afsluiten
-   - Maakt een vers pakket zodat je in de volgende chat meteen verder kunt.
+   Maakt pakket klaar voor de volgende chat.
 
-Wat je uploadt in de chat
-- De zip die de tool net heeft gemaakt
-- Plak de zin uit Zet-in-chat.txt
+Wat stuur je in de chat?
+- De zip die de tool net heeft gemaakt.
+- Plak de tekst uit Zet-in-chat.txt.
 
 Na de chatsessie
-- AI geeft je een nieuwe Projectplan.txt terug.
-- Vervang jouw Projectplan.txt in Assets/STEFSTOOLS/Latest/ met die nieuwe versie.
+- AI geeft een nieuwe Projectplan.txt terug.
+- Vervang je lokale bestand:
+  Assets/STEFSTOOLS/Latest/Projectplan.txt

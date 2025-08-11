@@ -1,0 +1,25 @@
+BEGIN BLUEPRINT
+PROJECTNAAM: Nova Unity Export Tool
+VERSIE: v0.1 – 2025-08-11
+HOOFDDOEL: Een Unity Editor-tool maken waarmee Stef met één klik alle info uit haar project kan exporteren voor AI-hulp, zonder zelf alles te hoeven uitleggen.
+
+REGELS VOOR AI:
+- Geef kant-en-klare code, direct te plakken in Unity.
+- Werk in kleine stappen en vraag om bevestiging voor ingrijpende aanpassingen.
+- Houd scripts prefab-vriendelijk en makkelijk herbruikbaar.
+- Breek bestaande functionaliteit niet.
+- Schrijf alles in leesbare taal (Jip-en-Janneke waar mogelijk).
+
+HUIDIGE SNAPSHOT:
+- Menu-item in Unity toegevoegd: STEFSTOOLS → Nova Export (simpel).
+- Basisstructuur voor mappen Docs/ en Blueprints/ bestaat.
+- Scripts voor exportfunctionaliteit zijn in opbouw.
+
+VOLGENDE STAPPEN:
+1) Scene-analyse toevoegen (actieve én inactieve objecten).
+2) Automatisch JSON en TXT exports maken.
+3) Knoppen "Nieuw project", "Verder werken" en "Sessie afsluiten" koppelen.
+
+WIJZIGINGSLOG:
+v0.1 – 2025-08-11: Project gestart, basisstructuur neergezet.
+EINDE BLUEPRINT

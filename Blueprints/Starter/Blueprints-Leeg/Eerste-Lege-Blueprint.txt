@@ -1,0 +1,13 @@
+BEGIN BLUEPRINT
+PROJECTNAAM: [invullen]
+VERSIE: v0.1 – [datum]
+HOOFDDOEL: [korte zin]
+REGELS VOOR AI:
+Geef kant-en-klare code, kleine stappen, niets kapot maken, prefab-vriendelijk.
+HUIDIGE SNAPSHOT:
+Net gestart
+VOLGENDE STAPPEN:
+Eerste export maken met de tool en naar AI sturen
+WIJZIGINGSLOG:
+v0.1 – [datum]: start
+EINDE BLUEPRINT
