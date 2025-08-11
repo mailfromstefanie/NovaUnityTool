@@ -1,16 +1,16 @@
-# FAQ – STEFSTOOLS SCENE ANALYZER
+# FAQ – Nova Unity Tool
 
-**Werkt dit voor VRChat-projecten?**  
-Ja, de tool herkent VRChat-specifieke componenten en geeft extra hints.
+## Werkt dit alleen met ChatGPT?
+Nee, je kunt het ook met andere AI's gebruiken.  
+Zolang je de bestanden kunt plakken of uploaden, werkt het.
 
-**Waar vind ik mijn rapporten?**  
-Standaard in `Assets/STEFSTOOLS/STEFSLOGS/`. Easy Mode laat je ook zelf een locatie kiezen.
+## Kan ik ook mappen sturen?
+Ja, maar het handigst is een ZIP-bestand van de `NovaExports`-map.
 
-**Kan ik mijn eigen templates gebruiken?**  
-Ja, plaats aangepaste sjablonen in `Blueprints/Starter/` met dezelfde bestandsnamen.
+## Wat als de AI iets niet begrijpt?
+Geef gewoon alle bestanden tegelijk en zeg:
+"Gebruik dit als basis."
 
-**Worden meerdere scenes ondersteund?**  
-Op dit moment alleen de actieve scene. Multi-scene support staat op de roadmap.
-
-**Bevat het rapport gevoelige informatie?**  
-Het kan scriptbroncode en paden bevatten. Deel alleen met vertrouwde personen.
+## Moet ik elk bestand sturen?
+Minimaal de **blueprint** en **scene-analyse**.  
+Extra bestanden (zoals versies en werkbriefjes) helpen de AI om beter door te werken.

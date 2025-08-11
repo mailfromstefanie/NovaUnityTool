@@ -1,25 +1,26 @@
-# GEBRUIKSAANWIJZING – STEFSTOOLS SCENE ANALYZER
+# Gebruik – Nova Unity Tool
 
-## Easy Mode (standaard)
-1. Open de scene die je wilt analyseren.
-2. Ga naar **STEFSTOOLS → Scene Analyzer → Open Scene Analyzer**.
-3. Klik op **"Analyseer & Bewaar Rapport Als…"**.
-4. Je rapport staat in `Assets/STEFSTOOLS/STEFSLOGS/`.
+De tool heeft 2 hoofdknoppen:
 
-## Pro Mode (gevorderden)
-- **Analyze Scene — Make Report (JSON):** direct naar logs-map.
-- **Analyze & Save Report As…:** kies zelf de opslaglocatie.
-- **See What Changed Since Last Report (Diff JSON):** vergelijkt met vorige analyse.
-- **Save Latest Report As…:** kopie van de laatste baseline.
-- **Open Logs Folder:** opent de logmap.
+---
 
-## Bestanden in de export
-- `Scene-overzicht.json`: volledig machineleesbaar rapport.
-- `Scene-overzicht.txt`: menselijk leesbare versie.
-- `Projectplan.txt`: jouw blueprint met projectstatus.
-- `Werkbriefje.txt`: to-do’s en notities.
-- `Zet-in-chat.txt`: korte contexttekst voor in een chat.
+## 1. Nieuw project
+- Gebruik dit bij **een nieuwe AI-samenwerking** of als je net begint.
+- De tool maakt:
+  - Een lege blueprint (startdocument).
+  - Een scene-analyse (alles wat in Unity staat).
+- Kopieer deze bestanden en plak ze in je AI-chat.
+- De AI vult de blueprint in op basis van je project.
 
-## Tips
-- Draai de export altijd na belangrijke wijzigingen.
-- Gebruik het JSON-bestand voor AI of geautomatiseerde analyse.
+---
+
+## 2. Verder werken
+- Gebruik dit **als je al een project hebt lopen**.
+- De tool kijkt wat er veranderd is en maakt een nieuw werkbriefje voor de AI.
+- Plak dit in de chat en de AI gaat verder waar jullie gebleven waren.
+
+---
+
+## Tip
+- Zet de map `NovaExports` **niet handmatig leeg** tenzij je opnieuw wilt beginnen.
+- Bewaar altijd de laatste blueprint in `NovaExports/Latest`.

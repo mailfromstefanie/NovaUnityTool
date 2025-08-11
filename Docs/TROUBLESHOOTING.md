@@ -1,17 +1,21 @@
-# TROUBLESHOOTING – STEFSTOOLS SCENE ANALYZER
+# Problemen oplossen – Nova Unity Tool
 
-## Menu “STEFSTOOLS” ontbreekt
-- Controleer of **`StefTools`** exact in `Assets/Editor/StefTools/` staat.
-- Los compileerfouten op in de Unity Console.
+---
 
-## Export werkt niet of geen bestanden
-- Controleer of je schrijfrechten hebt in het project.
-- Sluit bestanden die in een teksteditor geopend zijn.
-- Probeer een andere opslaglocatie.
+## De tool verschijnt niet in Unity
+1. Check of de scripts in de map `Assets/Editor/NovaUnityTool` staan.
+2. Klik **Refresh** in Unity of herstart Unity.
+3. Controleer in **Console** of er fouten zijn.
 
-## Scene-overzicht is incompleet
-- Zorg dat de juiste scene open en opgeslagen is.
-- Let op: alleen actieve scene wordt meegenomen.
+---
 
-## Scripts of shaders ontbreken
-- Alleen gebruikte scripts/shaders in de actieve scene worden meegenomen.
+## De tool maakt geen bestanden
+- Controleer of je schrijfrechten hebt in je projectmap.
+- Kijk in de **Console** voor foutmeldingen.
+- Probeer opnieuw met een lege scene.
+
+---
+
+## AI begrijpt mijn project niet
+- Zorg dat je **altijd** de blueprint én scene-analyse meestuurt.
+- Gebruik de knop **Verder werken** i.p.v. alles opnieuw te doen.

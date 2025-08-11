@@ -1,10 +1,12 @@
-# QUICKSTART – STEFSTOOLS SCENE ANALYZER
+# Quickstart – Nova Unity Tool
 
-1. **Installeer de tool** (zie `INSTALL.md`).
-2. Open de scene die je wilt analyseren in Unity.
-3. Ga naar **STEFSTOOLS → Scene Analyzer → Open Scene Analyzer**.
-4. Klik **"Analyseer & Bewaar Rapport Als…"** en kies een opslaglocatie.
-5. Open de map `Assets/STEFSTOOLS/STEFSLOGS/` om je rapport te bekijken.
-6. Gebruik het bestand `Zet-in-chat.txt` of het JSON-bestand om context te delen met een helper of AI.
+Wil je gewoon direct aan de slag?  
+Volg deze 4 stappen:
 
-**Tip:** Easy Mode is ideaal voor beginners. Voor extra functies gebruik je Pro Mode (zie `USAGE.md`).
+1. **Download en zet de tool** in je Unity-project (zie `INSTALL.md`).
+2. Open in Unity het menu **Nova Tool**.
+3. Klik op **Nieuw project** om meteen een lege blueprint + scene-analyse te maken.
+4. Neem de bestanden die verschijnen en **plak ze in je AI-chat**.  
+   De AI weet nu meteen alles en kan helpen.
+
+Tip: Gebruik bij een volgend gesprek altijd **Verder werken** om door te gaan waar je gebleven was.

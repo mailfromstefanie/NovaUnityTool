@@ -1,19 +1,26 @@
-# INSTALLATIEHANDLEIDING – STEFSTOOLS SCENE ANALYZER
+# Installatie – Nova Unity Tool
 
-## Vereisten
-- Unity 2021 LTS of nieuwer
-- Windows of macOS
-- Toegang tot `Assets/` in je project
+## Wat je nodig hebt
+- Unity (2019 of nieuwer, liefst LTS-versie)
+- Basiskennis: hoe je een scriptmap in Unity gebruikt
 
-## Installatie
-1. Download of clone deze repository.
-2. Kopieer de map **`Editor/StefTools/`** naar **`Assets/Editor/StefTools/`** in jouw Unity-project.
-3. Wacht tot Unity klaar is met compileren (statusbalk linksonder).
-4. Controleer in het Unity-menu of **STEFSTOOLS** zichtbaar is.
+## Installeren
+1. **Download** de map `NovaUnityTool` (of de losse C#-bestanden) uit deze repo.
+2. Zet de bestanden in je Unity-project in de map:
+   ```
+   Assets/Editor/NovaUnityTool
+   ```
+3. Start Unity of klik **Refresh** in de Project-tab.
 
-## Verwijderen
-- Verwijder **`Assets/Editor/StefTools/`** en herstart de Unity Editor.
+Je ziet nu in het Unity-menu bovenaan:  
+**Nova Tool**
 
-## Updaten
-- Download de nieuwste versie van deze repository.
-- Vervang de bestaande map **`Assets/Editor/StefTools/`** door de nieuwe versie.
+---
+
+## Testen
+- Open een willekeurige scene.
+- Ga naar **Nova Tool** in het menu.
+- Klik op **Nieuw project** – er zou nu een map met tekstbestanden moeten verschijnen in:
+  ```
+  Assets/NovaExports/
+  ```
