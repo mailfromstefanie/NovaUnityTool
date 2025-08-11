@@ -43,6 +43,7 @@ Volg eerst de [Installatiehandleiding](https://github.com/mailfromstefanie/NovaU
 [FAQ](FAQ.md)
 [Troubleshooting](TROUBLESHOOTING.md)
 [Gebruikshandleiding](USAGE.md)
+
 ---
 
 ✅ **Tip:** Deze tool is ideaal als je Unity-sessie wordt onderbroken, of als iemand anders aan jouw project moet verderwerken.
