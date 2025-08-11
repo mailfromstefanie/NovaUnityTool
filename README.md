@@ -43,16 +43,15 @@ Met **één druk op de knop** maakt de tool een ZIP-pakket met daarin:
 ---
 
 ## 📥 Installatie
-Zie [`INSTALL.md`](INSTALL.md) voor een stap-voor-stap installatiegids.
+Zie [`INSTALL.md`](https://github.com/mailfromstefanie/NovaUnityTool/blob/main/INSTALL.md) voor een stap-voor-stap installatiegids.
 
 ## 🚀 Snel starten
-Zie [`QUICKSTART.md`](QUICKSTART.md) om direct te beginnen.
+Zie [`QUICKSTART.md`](https://github.com/mailfromstefanie/NovaUnityTool/blob/main/QUICKSTART.md) om direct te beginnen.
 
 ## 🛠 Problemen?
-Bekijk [`TROUBLESHOOTING.md`](TROUBLESHOOTING.md) voor oplossingen.
+Bekijk [`TROUBLESHOOTING.md`](https://github.com/mailfromstefanie/NovaUnityTool/blob/main/TROUBLESHOOTING.md) voor oplossingen.
 
 ---
 
 ### ✨ Tip
 Gebruik de tool **aan het einde van elke werkdag** of **wanneer je AI-sessie vol is**. Zo werk je altijd zonder haperingen verder.
-
