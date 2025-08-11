@@ -1,0 +1,13 @@
+OPNIEUW OPBOUWEN – ALS ALLES KWIJT IS
+=====================================
+
+Als je alles kwijt bent, doe dit:
+1. Installeer opnieuw zoals in INSTALL.txt.
+2. Gebruik de knop Nieuw project starten in de tool.
+3. Upload de gemaakte zip + Zet-in-chat.txt in een nieuwe chat met de AI.
+4. Vraag: "Vul mijn Projectplan.txt volledig aan en geef de eerste drie stappen."
+5. Vervang daarna jouw Projectplan.txt met de versie uit de chat.
+
+Als je zelfs de tool kwijt bent:
+- Gebruik de codebestanden in Editor/StefTools/ uit deze GitHub-repo.
+- Kopieer ze naar Assets/Editor/StefTools/ in je Unity-project.

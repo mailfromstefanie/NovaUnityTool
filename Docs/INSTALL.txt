@@ -1,0 +1,19 @@
+INSTALLATIE – NOVA UNITY TOOL
+=============================
+
+Wat heb je nodig
+- Unity 2021 LTS of nieuwer
+- Een bestaand Unity-project
+
+Stappen
+1. Download of clone deze GitHub-repository.
+2. Open jouw Unity-project.
+3. Kopieer de map Editor/StefTools/ uit de repo naar jouw projectmap:
+   Assets/Editor/StefTools/
+4. Wacht tot Unity klaar is met compilen.
+5. Open in Unity het menu: STEFSTOOLS -> Nova Export (simpel).
+
+Klaar. Je kunt nu de knoppen gebruiken:
+- Nieuw project starten
+- Verder werken aan project
+- Sessie afsluiten
