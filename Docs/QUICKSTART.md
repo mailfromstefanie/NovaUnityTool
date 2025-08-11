@@ -1,60 +1,49 @@
-# 🚀 Quickstart – Nova Unity Tool
+# 🚀 Quickstart – NovaUnityTool
 
-Welkom! 🎉  
-Met deze handleiding kun je binnen **een paar minuten** de Nova Unity Tool gebruiken.
+Welkom bij **NovaUnityTool** – de snelste manier om je Unity-project klaar te maken voor AI-assistentie.
 
----
-
-## 1️⃣ Voorbereiding
-
-1. Zorg dat **Unity** is geïnstalleerd (versie 2019 of hoger werkt prima).
-2. Download of clone deze GitHub-repo naar je computer.
-3. Open het project in Unity.
+Met deze stappen ben je in een paar minuten klaar om aan de slag te gaan.
 
 ---
 
-## 2️⃣ De tool vinden in Unity
-
-1. Open Unity en wacht tot alles geladen is.
-2. In de menubalk bovenin ga je naar:  
-   **STEFSTOOLS → Nova Export (simpel)**
+## 1️⃣ Installatie
+Volg eerst de [Installatiehandleiding](Docs/INSTALL.md) om de tool in Unity te installeren.
 
 ---
 
-## 3️⃣ Eerste keer gebruiken
-
-1. **Klik op** `Nieuw project starten`
-   - Dit maakt de eerste basisbestanden aan, zoals je projectplan en werkbriefje.
-
-2. **Werk in Unity zoals je normaal doet**  
-   - Bouw je scene, voeg objecten toe, bewerk scripts, enz.
-
-3. Als je klaar bent met werken voor vandaag (of je AI-sessie is vol), klik op:  
-   **`Sessie afsluiten (klaar voor volgende keer)`**
-
-   - Dit maakt een `.zip` met alle info die je nodig hebt om de volgende keer direct verder te gaan.
+## 2️⃣ Eerste gebruik
+1. Open je Unity-project.
+2. Ga naar **menu**: `STEFSTOOLS → Nova Export (simpel)`.
+3. Je ziet drie grote knoppen:
+   - **Nieuw project starten** → maakt de eerste basisbestanden.
+   - **Verder werken aan project** → leest je huidige Projectplan en maakt nieuwe export.
+   - **Sessie afsluiten (klaar voor volgende keer)** → maakt een nieuw pakket (zip) met update van je scene en werkbriefje.
 
 ---
 
-## 4️⃣ Zip-bestand gebruiken met AI
-
-1. Open je AI-chat (bijvoorbeeld met ChatGPT/Nova).
-2. Upload de `.zip` die de tool heeft gemaakt.
-3. Open het bestand `Zet-in-chat.txt` uit de zip.
-4. Kopieer de tekst en plak die in je AI-chat.
-5. De AI weet nu meteen **waar jullie gebleven waren** en kan verder werken.
-
----
-
-## 5️⃣ Volgende sessie
-
-Als je weer verder wilt werken:
-
-1. Open Unity.
-2. Klik op **`Verder werken aan project`** in het Nova Export menu.
-3. De tool leest je oude bestanden en maakt nieuwe export als je klaar bent.
+## 3️⃣ Exporteren voor AI
+- De tool maakt een `.zip` zonder onnodige `.meta`-bestanden.
+- In het zipbestand vind je:
+  - Projectplan
+  - Scene-overzicht (`.txt` + `.json`)
+  - Werkbriefje
+  - Zet-in-chat.txt
 
 ---
 
-✅ Klaar! Je hebt nu de basis onder de knie.  
-Meer hulp nodig? Bekijk dan [INSTALL.md](INSTALL.md) of [TROUBLESHOOTING.md](TROUBLESHOOTING.md).
+## 4️⃣ AI-chat starten
+1. Upload de `.zip` in je AI-chat.
+2. Open **Zet-in-chat.txt** en plak de inhoud in je chat.
+3. Je AI (zoals ChatGPT/Nova) weet direct waar je gebleven was.
+
+---
+
+## ℹ️ Meer informatie
+- [Installatiehandleiding](Docs/INSTALL.md)
+- [Gebruikershandleiding](Docs/USAGE.md)
+- [Probleemoplossing](Docs/TROUBLESHOOTING.md)
+- [Veelgestelde vragen](Docs/FAQ.md)
+
+---
+
+✅ **Tip:** Deze tool is ideaal als je Unity-sessie wordt onderbroken, of als iemand anders aan jouw project moet verderwerken.
