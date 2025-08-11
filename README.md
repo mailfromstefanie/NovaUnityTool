@@ -1,34 +1,58 @@
-# Nova Unity Tool
+# 🚀 Nova Unity Tool – Projectgeheugen & Scene-analyse
 
-Welkom bij de **Nova Unity Tool** – een simpele hulp voor iedereen die met Unity werkt, maar niet alles zelf wil onthouden of steeds opnieuw wil uitleggen.
+## 📌 Wat doet deze Unity-tool?
+De **Nova Unity Tool** is een *projectgeheugen* en *scene-analyse* tool die je helpt om **naadloos door te werken met AI** (zoals ChatGPT/Nova) zonder telkens alles opnieuw uit te leggen.
 
-Met deze tool kun je:
-- Makkelijk een **project-startbestand** (blueprint) maken.
-- Je huidige Unity-scène **analyseren**.
-- Een kant-en-klaar tekstbestand krijgen dat je direct aan ChatGPT of een andere AI kunt geven om verder te werken.
+Met **één druk op de knop** maakt de tool een ZIP-pakket met daarin:
 
-Het doel: **Jij hoeft niets meer zelf te onthouden** – de AI heeft meteen alle info.
-
----
-
-## Wat kan deze tool?
-1. **Nieuw project starten** → Maakt een lege blueprint + scene-analyse.
-2. **Verder werken aan bestaand project** → Maakt nieuwe analyse + slaat de verschillen op.
-3. **Eenvoudige uitleg** in de tool zelf, zodat je nooit verdwaalt.
-
----
-
-## Hoe begin je?
-1. Installeer deze tool in je Unity-project (zie `INSTALL.md`).
-2. Open in Unity het menu **Nova Tool**.
-3. Klik op de juiste knop en lees de korte uitleg.
-4. Plak de bestanden die de tool maakt in je AI-chat.
+### 📂 Wat zit er in de export?
+- **📄 Projectplan** – Tekstbestand met wat er tot nu toe is gedaan en wat het doel is.  
+- **🗂 Scene-overzicht** (`.txt` + `.json`) – Een volledig verslag van je Unity-scene, inclusief:  
+  - Alle objecten en hun hiërarchie  
+  - Welke componenten erop zitten  
+  - Materialen en shaders  
+  - Waarden van alle zichtbare variabelen in scripts  
+- **📝 Werkbriefje** – Een sjabloon voor wat je in de volgende sessie wilt doen.  
+- **💬 Zet-in-chat.txt** – Kant-en-klare zin die je in een nieuwe AI-chat kunt plakken, zodat AI direct weet waar jullie gebleven waren.
 
 ---
 
-## Extra
-- Snel starten: zie `QUICKSTART.md`.
-- Installatiehulp: zie `INSTALL.md`.
-- Problemen oplossen: zie `TROUBLESHOOTING.md`.
-- Veelgestelde vragen: zie `FAQ.md`.
-- Hoe je hem gebruikt: zie `USAGE.md`.
+## 💡 Waarom is dit handig?
+- ⏱ **Geen tijdverlies:** AI weet direct waar je gebleven was.  
+- 🖼 **Geen screenshots nodig:** Alles staat al in de export.  
+- 📦 **Altijd een back-up** van de huidige staat van je project.  
+- 👥 **Samenwerken wordt makkelijker:** Anderen hebben meteen alle context.
+
+---
+
+## 🖥 Hoe werkt het in Unity?
+1. Open in Unity het menu:
+   ```
+   STEFSTOOLS → Nova Export (simpel)
+   ```
+2. Kies één van de 3 knoppen:
+   - **🆕 Nieuw project starten** → Maakt de eerste basisbestanden.  
+   - **📤 Verder werken aan project** → Leest je huidige Projectplan en maakt een nieuwe export.  
+   - **✅ Sessie afsluiten (klaar voor volgende keer)** → Maakt een nieuw pakket met update van je scene en werkbriefje.
+
+3. De tool maakt een `.zip` zonder overbodige Unity `.meta`-bestanden.
+4. Upload de zip in je AI-chat en plak de zin uit `Zet-in-chat.txt`.
+
+💬 **Resultaat:** De AI heeft direct alle informatie en kan doorgaan waar jullie gebleven waren.
+
+---
+
+## 📥 Installatie
+Zie [`INSTALL.md`](INSTALL.md) voor een stap-voor-stap installatiegids.
+
+## 🚀 Snel starten
+Zie [`QUICKSTART.md`](QUICKSTART.md) om direct te beginnen.
+
+## 🛠 Problemen?
+Bekijk [`TROUBLESHOOTING.md`](TROUBLESHOOTING.md) voor oplossingen.
+
+---
+
+### ✨ Tip
+Gebruik de tool **aan het einde van elke werkdag** of **wanneer je AI-sessie vol is**. Zo werk je altijd zonder haperingen verder.
+
