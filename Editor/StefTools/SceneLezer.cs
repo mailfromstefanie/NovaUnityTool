@@ -75,6 +75,7 @@ namespace StefTools
             var sb = new StringBuilder(512 * 1024);
             sb.Append("{");
 
+            // meta
             sb.Append("\"meta\":{");
             sb.Append("\"project\":\"").Append(JsonHulp.Escape(Application.productName)).Append("\",");
             sb.Append("\"version\":\"").Append(JsonHulp.Escape(PlayerSettings.bundleVersion)).Append("\",");
@@ -82,6 +83,7 @@ namespace StefTools
             sb.Append("\"exported_at\":\"").Append(System.DateTime.Now.ToString("yyyy-MM-ddTHH:mm:ssZ")).Append("\"");
             sb.Append("},");
 
+            // objects
             var objects = UnityEngine.Object.FindObjectsOfType<GameObject>(true).OrderBy(p => BestandenHulp.GetPath(p.transform)).ToArray();
             sb.Append("\"objects\":[");
             for (int i = 0; i < objects.Length; i++)
@@ -98,6 +100,7 @@ namespace StefTools
             }
             sb.Append("],");
 
+            // components
             sb.Append("\"components\":[");
             bool firstComp = true;
             foreach (var go in objects)
@@ -144,7 +147,10 @@ namespace StefTools
                         }
                         sb.Append("}");
                     }
-                    catch { sb.Append(",\"fields\":{}"); }
+                    catch
+                    {
+                        sb.Append(",\"fields\":{}");
+                    }
 
                     sb.Append("}");
                 }

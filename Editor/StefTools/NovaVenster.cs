@@ -29,21 +29,21 @@ namespace StefTools
 
             DrawBlock(
                 "Nieuw project starten",
-                "Lege Projectplan.txt, Werkbriefje.txt, Scene-overzicht (txt+json), Zet-in-chat.txt.",
+                "Gebruik deze na de allereerste brainstorm. Maakt lege Projectplan.txt, Scene-overzicht (txt+json), Werkbriefje.txt en Zet-in-chat.txt.",
                 () => ExportMaker.DoExport("new"));
 
             DrawBlock(
                 "Verder werken aan project",
-                "Leest laatste Projectplan.txt (Assets/STEFSTOOLS/Latest) en maakt nieuwe export.",
+                "Gebruik deze als je al een Projectplan.txt hebt. Leest de laatste Projectplan.txt (uit 'Assets/STEFSTOOLS/Latest' als die bestaat) en maakt nieuwe export.",
                 () => ExportMaker.DoExport("continue"));
 
             DrawBlock(
                 "Sessie afsluiten (klaar voor volgende keer)",
-                "Maakt pakket met Werkbriefje (sjabloon), vers Scene-overzicht en Zet-in-chat.txt.",
+                "Gebruik deze als je stopt met werken. Maakt nieuw pakket met Werkbriefje (sjabloon), vers Scene-overzicht en Zet-in-chat.txt.",
                 () => ExportMaker.DoExport("close"));
 
             EditorGUILayout.HelpBox(
-                "Na Nova's antwoord: vervang jouw 'Assets/STEFSTOOLS/Latest/Projectplan.txt' met de nieuwe uit de chat.",
+                "Na Nova's antwoord: kopieer de nieuwe 'Projectplan.txt' uit de chat en vervang jouw lokale 'Assets/STEFSTOOLS/Latest/Projectplan.txt'.",
                 MessageType.None);
 
             EditorGUILayout.EndScrollView();
@@ -56,7 +56,7 @@ namespace StefTools
                 GUILayout.Label(title, EditorStyles.boldLabel);
                 EditorGUILayout.LabelField(help, EditorStyles.wordWrappedLabel);
                 GUILayout.Space(4);
-                if (GUILayout.Button(title + " — Maak zip", GUILayout.Height(32)))
+                if (GUILayout.Button(title + "  Maak zip", GUILayout.Height(32)))
                 {
                     try { run(); }
                     catch (Exception ex)

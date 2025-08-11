@@ -4,6 +4,7 @@ using UnityEngine;
 using System;
 using System.IO;
 using System.Text;
+using System.IO.Compression;
 
 namespace StefTools
 {
@@ -21,30 +22,36 @@ namespace StefTools
                 "zip");
             if (string.IsNullOrEmpty(saveTo)) return;
 
+            // Werkmap opbouwen
             string workingRoot = Path.Combine(Application.dataPath, "STEFSTOOLS/Latest");
-            if (Directory.Exists(workingRoot)) { try { Directory.Delete(workingRoot, true); } catch {} }
+            if (Directory.Exists(workingRoot)) { try { Directory.Delete(workingRoot, true); } catch { } }
             Directory.CreateDirectory(workingRoot);
 
-            File.WriteAllText(Path.Combine(workingRoot, "Projectplan.txt"),
-                mode == "new" ? BuildProjectplanEmpty() : LoadExistingProjectplanOrEmpty(),
-                Encoding.UTF8);
+            // Projectplan.txt (ASCII)
+            string projectPlanPath = Path.Combine(workingRoot, "Projectplan.txt");
+            File.WriteAllText(projectPlanPath,
+                BestandenHulp.ToAscii(mode == "new" ? BuildProjectplanEmpty() : LoadExistingProjectplanOrEmpty()));
 
+            // Werkbriefje.txt (ASCII)
             File.WriteAllText(Path.Combine(workingRoot, "Werkbriefje.txt"),
-                BuildWerkbriefjeTemplate(), Encoding.UTF8);
+                BestandenHulp.ToAscii(BuildWerkbriefjeTemplate()));
 
+            // Scene-overzicht (txt ASCII + json UTF-8)
             File.WriteAllText(Path.Combine(workingRoot, "Scene-overzicht.txt"),
-                SceneLezer.BuildSceneReportReadable(), Encoding.UTF8);
-
+                BestandenHulp.ToAscii(SceneLezer.BuildSceneReportReadable()));
             File.WriteAllText(Path.Combine(workingRoot, "Scene-overzicht.json"),
                 SceneLezer.BuildSceneReportJson(), Encoding.UTF8);
 
+            // Scripts-en-Shaders
             string codeDir = Path.Combine(workingRoot, "Scripts-en-Shaders");
             Directory.CreateDirectory(codeDir);
             BestandenHulp.CollectScriptsAndShaders(codeDir);
 
+            // Zet-in-chat.txt (ASCII)
             File.WriteAllText(Path.Combine(workingRoot, "Zet-in-chat.txt"),
-                BuildPromptText(mode), Encoding.UTF8);
+                BestandenHulp.ToAscii(BuildPromptText(mode)));
 
+            // ZIP zonder .meta
             if (File.Exists(saveTo)) File.Delete(saveTo);
             BestandenHulp.ZipWithoutMeta(workingRoot, saveTo);
 
@@ -54,6 +61,7 @@ namespace StefTools
             EditorUtility.RevealInFinder(saveTo);
         }
 
+        // -------- Builders (platte tekst, compat) --------
         static string BuildProjectplanEmpty()
         {
             string project = Application.productName;
@@ -62,12 +70,12 @@ namespace StefTools
 
             var sb = new StringBuilder();
             sb.AppendLine("BEGIN PROJECTPLAN");
-            sb.AppendLine("PROJECT: " + project + "  |  VERSIE: v" + version + " - " + date);
+            sb.AppendLine("PROJECT: " + project + "  |  Versie: v" + version + " - " + date);
             sb.AppendLine();
-            sb.AppendLine("SNAPSHOT:");
+            sb.AppendLine("SNAPSHOT (nu):");
             sb.AppendLine("- [Door Nova in te vullen]");
             sb.AppendLine();
-            sb.AppendLine("WAT DOEN WE NU (3):");
+            sb.AppendLine("WAT DOEN WE NU (3 dingen):");
             sb.AppendLine("1) [Door Nova in te vullen]");
             sb.AppendLine("2) [Door Nova in te vullen]");
             sb.AppendLine("3) [Door Nova in te vullen]");
@@ -91,7 +99,7 @@ namespace StefTools
         static string BuildWerkbriefjeTemplate()
         {
             var sb = new StringBuilder();
-            sb.AppendLine("WERKBRIEFJE (vul in wat je wilt delen)");
+            sb.AppendLine("WERKBRIEFJE (vul in wat je wil delen)");
             sb.AppendLine("Veranderd:");
             sb.AppendLine("- [Wat heb je aangepast sinds de vorige keer?]");
             sb.AppendLine();
@@ -105,7 +113,7 @@ namespace StefTools
             sb.AppendLine("- [Wat moet blijven zoals het is?]");
             sb.AppendLine();
             sb.AppendLine("Overig:");
-            sb.AppendLine("- [Extra opmerkingen of ideeën]");
+            sb.AppendLine("- [Extra opmerkingen of ideen]");
             return sb.ToString();
         }
 
