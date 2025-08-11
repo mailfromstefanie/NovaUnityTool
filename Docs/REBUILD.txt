@@ -1,6 +1,13 @@
 OPNIEUW OPBOUWEN – ALS ALLES KWIJT IS
 =====================================
 
+REBUILD (als je alles kwijt bent)
+1. Repo downloaden
+2. Editor/StefTools/ kopiëren naar Assets/Editor/StefTools/ in je Unity-project
+3. Unity openen -> STEFSTOOLS -> Nova Export (simpel) -> Nieuw project starten
+4. Zip en Zet-in-chat.txt naar de AI sturen
+5. Nieuwe Projectplan.txt terugkrijgen -> overschrijven in Assets/STEFSTOOLS/Latest/
+
 Scenario A – Je hebt deze GitHub nog
 1. Kopieer Editor/StefTools/ naar je Unity-project:
    Assets/Editor/StefTools/

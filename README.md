@@ -35,3 +35,19 @@ Vrij te gebruiken binnen je eigen projecten. Geen garanties.
 - [Starter (lege templates)](Blueprints/Starter)
 - [Ingevulde voorbeelden](Blueprints/Voorbeelden-Ingevuld)
 - [Ballonvaart-voorbeeld](Blueprints/Ballonvaart-Project/Voorbeelden-Ingevuld)
+
+## Voorbeelden en sjablonen
+
+- Lege sjablonen (start): Blueprints/Starter
+- Ingevulde voorbeelden (tool): Blueprints/Voorbeelden-Ingevuld
+- Ingevulde voorbeelden (ballonvaart): Blueprints/Ballonvaart-Project/Voorbeelden-Ingevuld
+
+## Install (kort)
+1) Kopieer `Editor/StefTools/` naar je Unity project: `Assets/Editor/StefTools/`
+2) Open Unity → menu: STEFSTOOLS → Nova Export (simpel)
+
+## Gebruik (kort)
+- Nieuw project starten → maakt Projectplan.txt, Werkbriefje.txt, Scene-overzicht (txt+json), Zet-in-chat.txt
+- Verder werken → leest je laatste Projectplan en maakt nieuwe export
+- Sessie afsluiten → maakt pakket klaar voor volgende chat
+
