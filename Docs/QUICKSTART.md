@@ -7,7 +7,7 @@ Met deze stappen ben je in een paar minuten klaar om aan de slag te gaan.
 ---
 
 ## 1️⃣ Installatie
-Volg eerst de [Installatiehandleiding](https://github.com/mailfromstefanie/NovaUnityTool/blob/main/INSTALL.md) om de tool in Unity te installeren.
+Volg eerst de [Installatiehandleiding](INSTALL.md) om de tool in Unity te installeren.
 
 ---
 
@@ -39,10 +39,10 @@ Volg eerst de [Installatiehandleiding](https://github.com/mailfromstefanie/NovaU
 ---
 
 ## ℹ️ Meer informatie
-[Installatiehandleiding](INSTALL.md)
-[FAQ](FAQ.md)
-[Troubleshooting](TROUBLESHOOTING.md)
-[Gebruikshandleiding](USAGE.md)
+- [Installatiehandleiding](INSTALL.md)
+- [FAQ](FAQ.md)
+- [Troubleshooting](TROUBLESHOOTING.md)
+- [Gebruikshandleiding](USAGE.md)
 
 ---
 
